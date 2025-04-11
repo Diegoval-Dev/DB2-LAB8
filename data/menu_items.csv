@@ -1,51 +1,51 @@
-_id,restauranteId,nombre,descripcion,precio,categoria,imagenId
-d15ff9ab-c8a7-427f-9984-ac1ed7eb44f1,1e28c03d-1130-4fcc-bd9e-f4bdcd4f67da,Platillo 95bab4,Delicioso platillo preparado con ingredientes frescos.,59.07,bebida,62a58721-4171-4cab-a9a5-b3605244202b
-c2ee16ca-8782-4540-bb74-925fba77e3cc,1e28c03d-1130-4fcc-bd9e-f4bdcd4f67da,Platillo e9ae52,Delicioso platillo preparado con ingredientes frescos.,98.73,bebida,93daab19-0b09-4065-b7ca-98e42a19d0f6
-1d5efe25-69b2-4c04-828b-295b2630bb83,1e28c03d-1130-4fcc-bd9e-f4bdcd4f67da,Platillo 064c97,Delicioso platillo preparado con ingredientes frescos.,35.54,entrada,733351ef-299c-4a12-8454-66849334d4e7
-5565e071-822e-4690-a38a-ac9de0aeebd6,1e28c03d-1130-4fcc-bd9e-f4bdcd4f67da,Platillo de8911,Delicioso platillo preparado con ingredientes frescos.,82.46,postre,5af1cb0b-35a6-4271-a765-47badc5cde51
-7724dcd9-5c86-4ea0-8bdc-efc9a7dea662,1e28c03d-1130-4fcc-bd9e-f4bdcd4f67da,Platillo 61fcc8,Delicioso platillo preparado con ingredientes frescos.,57.7,entrada,96672041-ffff-4ac2-b0ea-28b90515e77e
-f9a5ac4d-ceb2-4256-a383-f0dbfe0dcae0,3738412c-9d22-4b76-a8f2-4a50a5f82e02,Platillo e5816e,Delicioso platillo preparado con ingredientes frescos.,82.83,entrada,8b91e20d-f39f-4f41-8361-206427286c8c
-9c5bda69-ca67-4864-b888-01bd5da61fb3,3738412c-9d22-4b76-a8f2-4a50a5f82e02,Platillo b213e8,Delicioso platillo preparado con ingredientes frescos.,38.73,bebida,43d055bc-69d4-4f9f-bf1e-51959ca662b0
-1e0a8d96-120f-43dc-82e9-1cb742decc77,3738412c-9d22-4b76-a8f2-4a50a5f82e02,Platillo 9c1a48,Delicioso platillo preparado con ingredientes frescos.,70.13,plato fuerte,bcc15fc0-a980-425c-9bc9-0af0a33503ef
-6689802d-91f3-42d2-91d7-f1f287b89da8,3738412c-9d22-4b76-a8f2-4a50a5f82e02,Platillo 907c1d,Delicioso platillo preparado con ingredientes frescos.,66.95,plato fuerte,2266b6e0-6608-4d3d-9cf2-e4a08ac433d5
-d6479c4b-4ab3-40ea-84d2-4d35a9d63ae3,3738412c-9d22-4b76-a8f2-4a50a5f82e02,Platillo 684001,Delicioso platillo preparado con ingredientes frescos.,74.28,entrada,0705b97a-52a6-45e3-bbc1-c3dd83cd8d89
-4cb967f4-041f-4cb6-ad91-50dcc6d23b04,3b0ddef6-005b-4ebd-b9b5-75242bca19fc,Platillo 59fe55,Delicioso platillo preparado con ingredientes frescos.,39.72,bebida,88e9c83c-7f52-4f9b-a97d-24ae2baabb9e
-3b1700d2-ace9-4cf6-ba91-d12737818420,3b0ddef6-005b-4ebd-b9b5-75242bca19fc,Platillo 1598ee,Delicioso platillo preparado con ingredientes frescos.,97.11,postre,f5f2a83f-8895-43b1-893c-ca31fd0aeabe
-c5b800d8-1429-450f-b989-485c1bdba7bf,3b0ddef6-005b-4ebd-b9b5-75242bca19fc,Platillo 61cb0c,Delicioso platillo preparado con ingredientes frescos.,32.23,postre,eb3137df-d56b-4db0-b435-6aaa12566742
-ce848bad-92db-44e8-8da1-0a08c2c76ec0,3b0ddef6-005b-4ebd-b9b5-75242bca19fc,Platillo 4db53e,Delicioso platillo preparado con ingredientes frescos.,70.14,entrada,95c503e0-d3a9-4f17-b1c9-290705649228
-3ab6fea2-cd4b-4c02-b5d6-f031b742652e,3b0ddef6-005b-4ebd-b9b5-75242bca19fc,Platillo 295d7b,Delicioso platillo preparado con ingredientes frescos.,77.86,postre,419ffb4e-9a44-4222-9137-ce82d0cb28b8
-0a1f89ac-bee2-47ff-8426-150e00a866e6,22f9e9ce-9b29-4c59-b668-bd5d1111bef0,Platillo 486310,Delicioso platillo preparado con ingredientes frescos.,39.03,entrada,64e436b9-0010-4c4c-802f-42cc03711e5c
-d9e852b9-bdd9-4404-8452-11ab32d176ee,22f9e9ce-9b29-4c59-b668-bd5d1111bef0,Platillo e423b3,Delicioso platillo preparado con ingredientes frescos.,65.59,entrada,d17671d2-8cc0-4b78-b8e4-dc5d1b73aefb
-17f8d084-0d8b-4724-a822-5ea2b5bf5ba6,22f9e9ce-9b29-4c59-b668-bd5d1111bef0,Platillo 4ea79b,Delicioso platillo preparado con ingredientes frescos.,58.68,plato fuerte,f45fb2ac-996c-4468-a644-e5031113a484
-e2602354-b65d-4443-9b7a-6650130a05aa,22f9e9ce-9b29-4c59-b668-bd5d1111bef0,Platillo 3c2acf,Delicioso platillo preparado con ingredientes frescos.,97.54,entrada,a7e81153-1499-4b57-b46f-a87dde5a91ae
-dd5d72a3-2b23-455c-a908-7c59261ba6ce,22f9e9ce-9b29-4c59-b668-bd5d1111bef0,Platillo 3571fe,Delicioso platillo preparado con ingredientes frescos.,93.43,postre,ed264e5f-e77e-40af-be10-8b2c8d5c273f
-d82a0783-d9b8-4acb-bbaf-cfb14ae3e76d,64e70b19-352a-4d08-9e6a-249baec89cfa,Platillo 8f4caa,Delicioso platillo preparado con ingredientes frescos.,32.39,postre,468f7bd3-b302-490a-8509-45cb49ff25dd
-5a48839e-551c-463c-a503-9c6dd3ddbf22,64e70b19-352a-4d08-9e6a-249baec89cfa,Platillo 8d8e44,Delicioso platillo preparado con ingredientes frescos.,83.07,bebida,c54dc21a-8f80-4b5e-a3af-f5404b246689
-0620b8d7-da26-4ff7-8f89-87b822950de3,64e70b19-352a-4d08-9e6a-249baec89cfa,Platillo d9f6a3,Delicioso platillo preparado con ingredientes frescos.,76.51,plato fuerte,62bca704-226c-4747-8d72-db176ae0f486
-80336034-6b0a-414f-89c3-35e59aedd429,64e70b19-352a-4d08-9e6a-249baec89cfa,Platillo 2926fc,Delicioso platillo preparado con ingredientes frescos.,50.26,plato fuerte,f073fa50-b123-4f41-b3da-56d5dce954ee
-d7ed750a-fcc8-4730-9d9a-ecc872f71e4c,64e70b19-352a-4d08-9e6a-249baec89cfa,Platillo ecd26c,Delicioso platillo preparado con ingredientes frescos.,81.69,postre,a384ea03-a15a-4dcf-96f4-198f1af3c027
-a9d01cc4-d373-4684-a3ff-11969d76f4dc,13b58a4d-54e2-4132-b35c-d069f115c848,Platillo bbce9a,Delicioso platillo preparado con ingredientes frescos.,57.17,entrada,fb82be67-cf42-4ed3-855a-0f5b3d4cae75
-14f23e16-4c5d-4c6f-b2e3-a6b0797b11a4,13b58a4d-54e2-4132-b35c-d069f115c848,Platillo cc245b,Delicioso platillo preparado con ingredientes frescos.,45.54,entrada,02981b64-0036-40a8-8580-7406c596e17a
-1dba5312-7d7c-4099-b80a-8ff8613861ea,13b58a4d-54e2-4132-b35c-d069f115c848,Platillo 623841,Delicioso platillo preparado con ingredientes frescos.,74.57,bebida,8c9a3c9f-8894-41c3-86dd-7d400db85c9c
-2bc8488d-be58-4af4-9e8a-7d54dbce4a9c,13b58a4d-54e2-4132-b35c-d069f115c848,Platillo 703f01,Delicioso platillo preparado con ingredientes frescos.,68.16,bebida,2c13dbe1-ced3-4824-a505-194c5fd70121
-67f298b4-12f4-4dd0-9d90-6e57a1cfaf1c,13b58a4d-54e2-4132-b35c-d069f115c848,Platillo 3a3cea,Delicioso platillo preparado con ingredientes frescos.,95.27,postre,3c5305d5-0d33-43d4-8f65-99b1843ae674
-21bc2b61-5fb8-4362-9499-84842fc27cc0,c770db2c-1dd3-44be-b86e-355b7f51a8b7,Platillo 74625e,Delicioso platillo preparado con ingredientes frescos.,51.47,postre,6ae8841c-0d84-4f2c-98e1-3aeef36a4fdc
-aecbd6ea-db66-4acd-9afb-01288be77595,c770db2c-1dd3-44be-b86e-355b7f51a8b7,Platillo a547b7,Delicioso platillo preparado con ingredientes frescos.,42.27,entrada,c0a93ab2-532c-4b25-8d79-c2c5cab3685c
-8c2c4460-e240-4cb2-9c64-62b3f4b90688,c770db2c-1dd3-44be-b86e-355b7f51a8b7,Platillo a0c387,Delicioso platillo preparado con ingredientes frescos.,55.48,plato fuerte,d699c6d7-625b-44e4-b7ed-a3772db8eb20
-e4e2bdc5-c1e2-45d0-848e-89ebaf932941,c770db2c-1dd3-44be-b86e-355b7f51a8b7,Platillo e98b8b,Delicioso platillo preparado con ingredientes frescos.,62.47,postre,3f363df3-7d47-4a39-bbfd-8803a2bf926c
-f8bede5e-db6e-4a13-97ff-b820423c0cc7,c770db2c-1dd3-44be-b86e-355b7f51a8b7,Platillo b2ae42,Delicioso platillo preparado con ingredientes frescos.,40.62,postre,2eb7a3a5-e6ee-4879-911c-9e3fdacc9ca7
-ce8f82d9-1813-4784-9905-b76b15164d4b,e795e0fe-b9a2-4ce4-b735-9d6992fe1b3e,Platillo 24ca81,Delicioso platillo preparado con ingredientes frescos.,86.42,entrada,97ccdd19-53d6-4045-8795-634d299024b6
-474af805-0d15-410c-8cdb-520ad0f09a79,e795e0fe-b9a2-4ce4-b735-9d6992fe1b3e,Platillo c6c981,Delicioso platillo preparado con ingredientes frescos.,47.36,postre,208b463b-591d-4eae-839c-73fd28f051c9
-60609d64-b74d-49fe-92a7-59fccda5c8e5,e795e0fe-b9a2-4ce4-b735-9d6992fe1b3e,Platillo 857c53,Delicioso platillo preparado con ingredientes frescos.,91.62,entrada,7cf84b94-8129-44ec-afe2-d49dbc73faf7
-355f369e-a9ca-4d99-8a31-2d7ffa2d57ef,e795e0fe-b9a2-4ce4-b735-9d6992fe1b3e,Platillo e67a83,Delicioso platillo preparado con ingredientes frescos.,40.97,bebida,a3b11135-826b-4ae0-8954-28a327fe9dcc
-c99855e5-901a-4a61-bbb5-6318581bfc69,e795e0fe-b9a2-4ce4-b735-9d6992fe1b3e,Platillo 5482a8,Delicioso platillo preparado con ingredientes frescos.,38.76,plato fuerte,3a19890f-3560-43fa-8155-f990a12434ea
-6a9cae3a-7565-4818-a403-c6c1fc498202,f3622cae-f794-41b3-b176-4367aba2df3f,Platillo 9b010a,Delicioso platillo preparado con ingredientes frescos.,44.78,bebida,495fb9af-0bc9-490e-9886-c855eb2b4ca4
-54c40a10-5f10-4f76-a6ff-e4cec9d723e0,f3622cae-f794-41b3-b176-4367aba2df3f,Platillo cf4527,Delicioso platillo preparado con ingredientes frescos.,81.8,entrada,f57fff9c-3807-4ecd-bf79-d163c5bca0d6
-7046bd52-6586-4b6b-8dbe-fbf1bed5c1ee,f3622cae-f794-41b3-b176-4367aba2df3f,Platillo 4d1545,Delicioso platillo preparado con ingredientes frescos.,81.7,plato fuerte,66dceb1c-be48-43e8-8528-52f9f9fa24d6
-d756a3a5-bf95-44bb-97e6-cb5fc5e43b33,f3622cae-f794-41b3-b176-4367aba2df3f,Platillo 598d22,Delicioso platillo preparado con ingredientes frescos.,30.51,postre,e904353b-d65a-4267-9203-fc68fde05fbf
-e11ace9b-6546-48c7-b4ff-1f2a89f6d168,f3622cae-f794-41b3-b176-4367aba2df3f,Platillo c58784,Delicioso platillo preparado con ingredientes frescos.,39.48,plato fuerte,c075227a-cfab-4f2a-a409-8e19b72bea55
-c9e48726-7384-46d3-9769-1073d3f2d946,650b0871-2e2a-4a19-ae1e-e543c56f7cc5,Platillo 17eea5,Delicioso platillo preparado con ingredientes frescos.,43.32,bebida,e70c976f-4769-4b6b-b991-6c2439a299b3
-8b8478f0-3ee0-49d2-85e2-532b0d3b5c6c,650b0871-2e2a-4a19-ae1e-e543c56f7cc5,Platillo a1002a,Delicioso platillo preparado con ingredientes frescos.,84.91,postre,9273d885-818b-4ab5-9322-360b9b09b954
-311e5aac-6d1d-44f4-84b9-8526d49aef16,650b0871-2e2a-4a19-ae1e-e543c56f7cc5,Platillo aae083,Delicioso platillo preparado con ingredientes frescos.,99.78,plato fuerte,ca2cf9c5-8ae9-4dc1-8fef-998e51528720
-dc9d62ff-7dd9-4cc6-b3ed-21591ef772c4,650b0871-2e2a-4a19-ae1e-e543c56f7cc5,Platillo 027542,Delicioso platillo preparado con ingredientes frescos.,30.18,postre,5d29d3b4-c972-4247-a3ba-e15ac855fc97
-79ecb324-4f0f-483c-b651-50fccbbbfdca,650b0871-2e2a-4a19-ae1e-e543c56f7cc5,Platillo 35cc9b,Delicioso platillo preparado con ingredientes frescos.,86.33,plato fuerte,aa4514eb-8ee6-4655-88b3-bc35295ad6e4
+restaurantId,name,description,price,category,imageId
+f1403ffc-67d0-41d3-938b-508ee61fe92e,Platillo 388937,Delicioso platillo preparado con ingredientes frescos.,81.92,postre,b9432f38-74c4-4873-97a2-cfe13b730439
+f1403ffc-67d0-41d3-938b-508ee61fe92e,Platillo 1c79b8,Delicioso platillo preparado con ingredientes frescos.,92.0,postre,af8827dc-4784-48e7-9e9e-d1fc80ea87bb
+f1403ffc-67d0-41d3-938b-508ee61fe92e,Platillo 847e0c,Delicioso platillo preparado con ingredientes frescos.,53.86,entrada,b1dc68b0-e870-4673-a779-4d72ddf1a857
+f1403ffc-67d0-41d3-938b-508ee61fe92e,Platillo bfc054,Delicioso platillo preparado con ingredientes frescos.,38.1,plato fuerte,aef119c9-42ef-4687-b169-bb447f2c3513
+f1403ffc-67d0-41d3-938b-508ee61fe92e,Platillo 96069b,Delicioso platillo preparado con ingredientes frescos.,93.03,entrada,c680040b-dc4f-4598-86bf-6d42e247ef60
+54f1c8c9-f29a-42c2-8f6d-e548e95aa104,Platillo a49799,Delicioso platillo preparado con ingredientes frescos.,85.2,entrada,fe7ec994-5040-47dd-9cee-b98e3952e2e3
+54f1c8c9-f29a-42c2-8f6d-e548e95aa104,Platillo aae341,Delicioso platillo preparado con ingredientes frescos.,45.73,entrada,94ee7af1-0520-4c1c-b841-5a85eca0cc1a
+54f1c8c9-f29a-42c2-8f6d-e548e95aa104,Platillo 228671,Delicioso platillo preparado con ingredientes frescos.,63.83,entrada,d10c0cde-bf26-4444-9e67-ea1a780cc4e7
+54f1c8c9-f29a-42c2-8f6d-e548e95aa104,Platillo 137439,Delicioso platillo preparado con ingredientes frescos.,97.71,bebida,75c0a847-0ffb-484d-866f-0ae67355213d
+54f1c8c9-f29a-42c2-8f6d-e548e95aa104,Platillo a6b9a8,Delicioso platillo preparado con ingredientes frescos.,96.39,entrada,17e02d7f-734a-4578-8dbf-cd27594dbbf8
+59338c02-2183-47db-8fe8-45c11e855cba,Platillo 25e9de,Delicioso platillo preparado con ingredientes frescos.,39.56,postre,2738dd83-85e9-4dfd-a97a-4128303313c8
+59338c02-2183-47db-8fe8-45c11e855cba,Platillo ee4ba3,Delicioso platillo preparado con ingredientes frescos.,97.95,entrada,9804ed2f-3f09-4652-b86b-b596ffe8bfcb
+59338c02-2183-47db-8fe8-45c11e855cba,Platillo 369016,Delicioso platillo preparado con ingredientes frescos.,93.51,postre,17d152be-d37a-4f67-b5ee-758d3d14ae05
+59338c02-2183-47db-8fe8-45c11e855cba,Platillo 5e2cb0,Delicioso platillo preparado con ingredientes frescos.,91.28,plato fuerte,0e735d08-23bd-439d-9662-9daf6ac6e29b
+59338c02-2183-47db-8fe8-45c11e855cba,Platillo 922b69,Delicioso platillo preparado con ingredientes frescos.,54.89,plato fuerte,f6fdd831-1f9e-44ea-a88f-136823e06108
+49727cb3-48e9-4e9a-9df2-062039db6815,Platillo d71c7f,Delicioso platillo preparado con ingredientes frescos.,45.51,entrada,b0e28e73-fa26-4dca-8754-354a6c895a33
+49727cb3-48e9-4e9a-9df2-062039db6815,Platillo 791edf,Delicioso platillo preparado con ingredientes frescos.,35.12,entrada,db0c9862-41c3-4db0-82a5-8c75cfdf5e5c
+49727cb3-48e9-4e9a-9df2-062039db6815,Platillo 267665,Delicioso platillo preparado con ingredientes frescos.,61.85,entrada,bf040fe6-51ba-408c-94c6-95484ab7627a
+49727cb3-48e9-4e9a-9df2-062039db6815,Platillo 6dc787,Delicioso platillo preparado con ingredientes frescos.,62.05,bebida,833dd92e-69ee-421a-b853-e6bbdc87823c
+49727cb3-48e9-4e9a-9df2-062039db6815,Platillo 4c6308,Delicioso platillo preparado con ingredientes frescos.,49.76,plato fuerte,b742503b-b0d8-44fc-852f-93d9054a6c1e
+cf55bb40-3079-4a09-9c42-03f7616f304c,Platillo aee1e7,Delicioso platillo preparado con ingredientes frescos.,88.56,plato fuerte,bf8ef52f-7e34-4610-8433-19825b6c1fe4
+cf55bb40-3079-4a09-9c42-03f7616f304c,Platillo e9cae7,Delicioso platillo preparado con ingredientes frescos.,92.19,entrada,1a1c1d5c-d07a-408d-aa0b-b1738ac3001c
+cf55bb40-3079-4a09-9c42-03f7616f304c,Platillo 383eca,Delicioso platillo preparado con ingredientes frescos.,79.07,postre,ebb8b21e-7ce9-4d7d-8fe4-5ddb118fd39c
+cf55bb40-3079-4a09-9c42-03f7616f304c,Platillo 2e4f89,Delicioso platillo preparado con ingredientes frescos.,84.59,bebida,51f0093a-ad17-4c74-93b8-35e030cd1dce
+cf55bb40-3079-4a09-9c42-03f7616f304c,Platillo 88f449,Delicioso platillo preparado con ingredientes frescos.,44.59,bebida,772f53a4-4845-416c-a774-ff55af19447a
+09e6015b-da8f-4b41-bef5-758aea2fd399,Platillo 56e6cf,Delicioso platillo preparado con ingredientes frescos.,58.9,plato fuerte,27fd15a9-00bf-4ca6-90de-ab242c12c679
+09e6015b-da8f-4b41-bef5-758aea2fd399,Platillo 0bb3a8,Delicioso platillo preparado con ingredientes frescos.,97.49,bebida,0422a819-da6e-40ab-a8b2-f76dd03beb45
+09e6015b-da8f-4b41-bef5-758aea2fd399,Platillo ac70a9,Delicioso platillo preparado con ingredientes frescos.,83.93,plato fuerte,24ad19c9-e4d0-4c39-a7a0-3ec0a292aee6
+09e6015b-da8f-4b41-bef5-758aea2fd399,Platillo 914696,Delicioso platillo preparado con ingredientes frescos.,78.11,entrada,bb872b0d-3943-4784-9a8c-c524f933985c
+09e6015b-da8f-4b41-bef5-758aea2fd399,Platillo 8d51c1,Delicioso platillo preparado con ingredientes frescos.,61.79,bebida,92789576-2a5f-4f41-95cb-c74b65f7d5d2
+1f5c0559-916c-4f60-8133-b479467c722f,Platillo c22424,Delicioso platillo preparado con ingredientes frescos.,63.19,postre,63d95faa-6feb-47d8-a841-8ad87aa70110
+1f5c0559-916c-4f60-8133-b479467c722f,Platillo fd6f3d,Delicioso platillo preparado con ingredientes frescos.,34.12,plato fuerte,3fa95c3a-217c-42cd-9c00-57d0f6fae5c6
+1f5c0559-916c-4f60-8133-b479467c722f,Platillo 77d0cb,Delicioso platillo preparado con ingredientes frescos.,56.93,plato fuerte,5cb82981-598e-4cba-81d1-17d483fee70b
+1f5c0559-916c-4f60-8133-b479467c722f,Platillo 0eb1aa,Delicioso platillo preparado con ingredientes frescos.,60.84,postre,c0dfafdc-3589-4ddc-a97c-bda0a9443c0e
+1f5c0559-916c-4f60-8133-b479467c722f,Platillo 9897c9,Delicioso platillo preparado con ingredientes frescos.,46.13,postre,c399c2b3-24f7-4ad6-a21a-abde4779b22a
+9c87782d-81d0-496b-a1e3-030cb2df02bd,Platillo 4e5764,Delicioso platillo preparado con ingredientes frescos.,89.74,entrada,53e0e96d-7aa9-45f2-8b74-c026595e84a0
+9c87782d-81d0-496b-a1e3-030cb2df02bd,Platillo 996acc,Delicioso platillo preparado con ingredientes frescos.,70.38,bebida,26e8f508-011a-4359-8961-51957f22d147
+9c87782d-81d0-496b-a1e3-030cb2df02bd,Platillo b06dff,Delicioso platillo preparado con ingredientes frescos.,91.65,plato fuerte,3a1b2926-9516-4e40-83d8-b544dc6bfb10
+9c87782d-81d0-496b-a1e3-030cb2df02bd,Platillo d95bab,Delicioso platillo preparado con ingredientes frescos.,41.81,bebida,74aff18c-9acf-41a8-9fe4-d1ba4444244d
+9c87782d-81d0-496b-a1e3-030cb2df02bd,Platillo fecc1a,Delicioso platillo preparado con ingredientes frescos.,96.55,entrada,d6909854-cf7f-4313-9eff-771acab2fbc9
+160c8ff5-6154-4ab0-9c05-e7d46084dd13,Platillo 908fe8,Delicioso platillo preparado con ingredientes frescos.,75.97,bebida,a939378d-50df-496b-8ab2-d92b712ba2e1
+160c8ff5-6154-4ab0-9c05-e7d46084dd13,Platillo befa41,Delicioso platillo preparado con ingredientes frescos.,55.73,postre,d6d7af95-ee34-4781-9400-3f9cee0d3e08
+160c8ff5-6154-4ab0-9c05-e7d46084dd13,Platillo b6a49d,Delicioso platillo preparado con ingredientes frescos.,96.26,postre,2d84dc75-ea99-4e08-8ab2-3a38bdef4013
+160c8ff5-6154-4ab0-9c05-e7d46084dd13,Platillo 0e31d6,Delicioso platillo preparado con ingredientes frescos.,90.24,postre,2d76f5a6-1e42-47f1-a883-e0b53ee48083
+160c8ff5-6154-4ab0-9c05-e7d46084dd13,Platillo b91799,Delicioso platillo preparado con ingredientes frescos.,76.96,plato fuerte,3b2962f4-c1e4-40ec-a4e6-895be8710e5d
+cb61af4e-20e9-46b2-8079-e6ee06ddfdc0,Platillo db9cdc,Delicioso platillo preparado con ingredientes frescos.,85.73,postre,f1df7508-1c0f-48f1-8907-a637bad3c5e6
+cb61af4e-20e9-46b2-8079-e6ee06ddfdc0,Platillo 9ef833,Delicioso platillo preparado con ingredientes frescos.,32.63,entrada,f7df066a-9d3f-4f8e-8bf8-ff0bbd4df760
+cb61af4e-20e9-46b2-8079-e6ee06ddfdc0,Platillo 360c5d,Delicioso platillo preparado con ingredientes frescos.,67.41,entrada,e9d78c3e-c42d-4f4f-b779-29f9f4e458e4
+cb61af4e-20e9-46b2-8079-e6ee06ddfdc0,Platillo 994257,Delicioso platillo preparado con ingredientes frescos.,41.39,bebida,9131f0dc-cae7-4ac5-8ba2-61bfcb294ee4
+cb61af4e-20e9-46b2-8079-e6ee06ddfdc0,Platillo e8a6ad,Delicioso platillo preparado con ingredientes frescos.,86.19,postre,93935b27-f157-4896-b827-f1d3a112126c

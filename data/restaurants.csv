@@ -1,0 +1,11 @@
+name,address,location,specialties,imageIds
+Restaurante 1,"Calle 1, Ciudad","56.7397551615536, 17.992593815946208","mexicana, barbacoa",81c961e7-4e8a-4b8f-97eb-d29fef41776d
+Restaurante 2,"Calle 2, Ciudad","-32.085428465460154, 33.721559492076466",china,"e72d64ba-fef1-4f09-bb41-56100f09fb14, 1c7f02b7-596b-4b15-912e-d42764983f2f"
+Restaurante 3,"Calle 3, Ciudad","61.58564594175775, 93.079961750937",saludable,23f2a177-2d74-47f1-9747-cc6c4d7ac7cb
+Restaurante 4,"Calle 4, Ciudad","-13.846315717215234, 173.58109029035973","mexicana, barbacoa",8d6ed8ba-c16c-440a-be08-8aed1a3ed6de
+Restaurante 5,"Calle 5, Ciudad","23.052942020283695, -38.35375574926786","italiana, vegana","02ea2ceb-634e-4cc5-a584-ac7297df3221, 26cdf81e-6b36-4530-9cb5-2c31b3653a08"
+Restaurante 6,"Calle 6, Ciudad","-25.117272894622275, 81.76883852834703",china,1162b393-2001-4e91-8858-40c6fc0fe69e
+Restaurante 7,"Calle 7, Ciudad","56.16010756509647, 115.06351891204264","mexicana, barbacoa",d4bcfbc7-27ec-4b5e-b5a3-4b33b47d14ba
+Restaurante 8,"Calle 8, Ciudad","20.04011856000659, 179.3187819102664",saludable,"6f5111f4-753b-4679-8120-bb1fad1026fd, 0ae3c850-1a19-43fd-b334-8958f2d0c47d"
+Restaurante 9,"Calle 9, Ciudad","65.90415370680185, 143.08377942702498",china,"313fea17-2144-40ef-abe0-31707c74c418, 464292b6-0696-4c1f-bf5e-d7230d6f67c3"
+Restaurante 10,"Calle 10, Ciudad","-38.8887197763942, -48.11359160346328",china,6478974b-56ee-4998-b2ea-821f296474f5
