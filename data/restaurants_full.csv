@@ -1,0 +1,7 @@
+id,name,address,location,specialties,imageIds
+593993d083e0431ea951cdd7,La Trattoria,Zona 10,"14.636,-90.544","Italiana, Pizza","img0,img1"
+3dc081fa6825497fa4e7ff0c,Sushi House,Zona 15,"14.641,-90.562","Japonesa, Sushi","img2,img3"
+012d072e27fe41ac99200dc7,Burger Barn,Zona 1,"14.664,-90.523","Americana, Hamburguesas","img4,img5"
+f014b48cb2ef4623b6b6f1ff,Green Bites,Zona 4,"14.634,-90.558","Vegana, Orgánica","img6,img7"
+dcf994a7fb4241c680267d00,Taco Town,Zona 9,"14.698,-90.581","Mexicana, Tacos","img8,img9"
+d8fc3f8e20bd4448a13e75a4,Fusion Noodles,Zona 11,"14.672,-90.553","Asiática, Fusión","img10,img11"

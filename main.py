@@ -5,57 +5,88 @@ import os
 import json
 from bson import ObjectId
 
+# Cargar variables de entorno
 load_dotenv()
 MONGO_URI = os.getenv("MONGO_URI")
-
 if not MONGO_URI:
-  raise ValueError("Falta la variable MONGO_URI en el archivo .env")
+    raise ValueError("Falta la variable MONGO_URI en el archivo .env")
 
 client = MongoClient(MONGO_URI)
 db = client["gercoRaunte"]
 
-print("Paso 1: Insertando restaurantes...")
-restaurants_df = pd.read_csv("data/restaurants.csv")
-restaurants_df["specialties"] = restaurants_df["specialties"].apply(lambda x: x.split(", "))
-restaurants_df["imageIds"] = restaurants_df["imageIds"].apply(lambda x: x.split(", "))
+# Función auxiliar para convertir IDs
+def to_object_id(value):
+    try:
+        return ObjectId(str(value))
+    except:
+        return None
 
-restaurant_records = restaurants_df.to_dict(orient="records")
-inserted = db["restaurants"].insert_many(restaurant_records)
-restaurant_ids = inserted.inserted_ids
-restaurant_name_to_id = dict(zip(restaurants_df["name"], restaurant_ids))
+# Cargar restaurantes
+print("Insertando restaurantes...")
+restaurants_df = pd.read_csv("./data/restaurants_full.csv")
+restaurants_df["id"] = restaurants_df["id"].apply(to_object_id)
+restaurants_df["specialties"] = restaurants_df["specialties"].apply(lambda x: x.split(",") if isinstance(x, str) else [])
+restaurants_df["imageIds"] = restaurants_df["imageIds"].apply(lambda x: x.split(",") if isinstance(x, str) else [])
 
-print(f"Insertados {len(restaurant_ids)} restaurantes")
+db["restaurants"].delete_many({})
+restaurant_records = restaurants_df.drop(columns=["id"]).to_dict(orient="records")
+inserted_restaurants = db["restaurants"].insert_many(restaurant_records)
+restaurant_id_map = dict(zip(restaurants_df["id"].astype(str), inserted_restaurants.inserted_ids))
 
-def convert_restaurant_ref(name):
-  return restaurant_name_to_id.get(name.strip(), None)
+# Cargar usuarios
+print("Insertando usuarios...")
+users_df = pd.read_csv("./data/users_full.csv")
+users_df["id"] = users_df["id"].apply(to_object_id)
 
-print("Insertando users...")
-users_df = pd.read_csv("data/users.csv")
 db["users"].delete_many({})
-db["users"].insert_many(users_df.to_dict(orient="records"))
-print(f"Insertados {len(users_df)} usuarios")
+user_records = users_df.drop(columns=["id"]).to_dict(orient="records")
+inserted_users = db["users"].insert_many(user_records)
+user_id_map = dict(zip(users_df["id"].astype(str), inserted_users.inserted_ids))
 
-print("Insertando menu_items...")
-menu_df = pd.read_csv("data/menu_items.csv")
-menu_df["restaurantId"] = menu_df["restaurantId"].apply(convert_restaurant_ref)
+# Cargar ítems de menú
+print("Insertando menú...")
+menu_df = pd.read_csv("./data/menu_items_full.csv")
+menu_df["id"] = menu_df["id"].apply(to_object_id)
+menu_df["restaurantId"] = menu_df["restaurantId"].astype(str).map(restaurant_id_map)
+menu_df["restaurantId"] = menu_df["restaurantId"].apply(to_object_id)
+
 db["menu_items"].delete_many({})
-db["menu_items"].insert_many(menu_df.to_dict(orient="records"))
-print(f"Insertados {len(menu_df)} menú items")
+menu_records = menu_df.drop(columns=["id"]).to_dict(orient="records")
+inserted_menu = db["menu_items"].insert_many(menu_records)
+menu_id_map = dict(zip(menu_df["id"].astype(str), inserted_menu.inserted_ids))
 
-print("Insertando orders...")
-orders_df = pd.read_csv("data/orders.csv")
-orders_df["restaurantId"] = orders_df["restaurantId"].apply(convert_restaurant_ref)
-orders_df["items"] = orders_df["items"].apply(lambda x: json.loads(x.replace("'", '"')))
+# Cargar órdenes
+print("Insertando órdenes...")
+orders_df = pd.read_csv("./data/orders_full.csv")
+orders_df["restaurantId"] = orders_df["restaurantId"].astype(str).map(restaurant_id_map).apply(to_object_id)
+orders_df["userId"] = orders_df["userId"].astype(str).map(user_id_map).apply(to_object_id)
+
+def convert_items(val):
+    try:
+        items = json.loads(val)
+        for item in items:
+            item["menu_item_id"] = to_object_id(menu_id_map.get(item["menu_item_id"]))
+        return items
+    except:
+        return []
+
+orders_df["items"] = orders_df["items"].apply(convert_items)
+
 db["orders"].delete_many({})
-db["orders"].insert_many(orders_df.to_dict(orient="records"))
-print(f"Insertados {len(orders_df)} órdenes")
+orders_records = orders_df.drop(columns=["id"]).to_dict(orient="records")
+db["orders"].insert_many(orders_records)
+print(f"Insertadas {len(orders_records)} órdenes")
 
-print("Insertando reviews...")
-reviews_df = pd.read_csv("data/reviews.csv")
-reviews_df["restaurantId"] = reviews_df["restaurantId"].apply(convert_restaurant_ref)
+# Cargar reseñas
+print("Insertando reseñas...")
+reviews_df = pd.read_csv("./data/reviews_full.csv")
+reviews_df["restaurantId"] = reviews_df["restaurantId"].astype(str).map(restaurant_id_map).apply(to_object_id)
+reviews_df["userId"] = reviews_df["userId"].astype(str).map(user_id_map).apply(to_object_id)
+
 db["reviews"].delete_many({})
-db["reviews"].insert_many(reviews_df.to_dict(orient="records"))
-print(f"Insertados {len(reviews_df)} reseñas")
+reviews_records = reviews_df.drop(columns=["id"]).to_dict(orient="records")
+db["reviews"].insert_many(reviews_records)
+print(f"Insertadas {len(reviews_records)} reseñas")
 
-print("Carga completa. Verifica en MongoDB Atlas.")
+print("✅ Carga completada con éxito.")
 client.close()

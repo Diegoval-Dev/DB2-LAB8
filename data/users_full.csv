@@ -1,0 +1,11 @@
+id,name,email,role,registrationDate
+158487c536d3459c99c163f2,User0,user0@mail.com,cliente,2023-01-01
+8680e38af0284e67873ef661,User1,user1@mail.com,cliente,2023-01-02
+580428a46b924b3e8846b9eb,User2,user2@mail.com,cliente,2023-01-03
+9e9446d6dcc04a5aa3ed5db5,User3,user3@mail.com,cliente,2023-01-04
+45d31329781440f28695c7f4,User4,user4@mail.com,cliente,2023-01-05
+0ddec402dc494a60891e9195,User5,user5@mail.com,cliente,2023-01-06
+6d9cce8cbcc44421b305fb61,User6,user6@mail.com,cliente,2023-01-07
+8d0b12f2be05444cb7ed86db,User7,user7@mail.com,cliente,2023-01-08
+c84765019c17446f83ba1b92,User8,user8@mail.com,admin,2023-01-09
+3d62ea0c06e541b5bbfa232a,User9,user9@mail.com,repartidor,2023-01-10
